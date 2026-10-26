@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4da3ff"/>
+      <stop offset="1" stop-color="#1a4fd6"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbe8ff"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(256 256) scale(0.66) translate(-240 -255)">
+  <!-- laptop -->
+  <rect x="70" y="150" width="250" height="168" rx="20" fill="url(#screen)"/>
+  <rect x="40" y="326" width="310" height="26" rx="13" fill="#ffffff" opacity="0.95"/>
+  <!-- phone -->
+  <rect x="290" y="196" width="150" height="262" rx="30" fill="#0f2a73"/>
+  <rect x="302" y="212" width="126" height="224" rx="18" fill="url(#screen)"/>
+  <rect x="345" y="199" width="40" height="7" rx="3.5" fill="#6c8be0"/>
+  <!-- link -->
+  <g fill="none" stroke="#1a4fd6" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 236 l-22 22 a30 30 0 0 0 42 42 l14 -14" />
+    <path d="M214 270 l22 -22 a30 30 0 0 0 -42 -42 l-14 14" />
+  </g>
+  <rect x="338" y="414" width="54" height="8" rx="4" fill="#9db6ee"/>
+
+  </g>
+</svg>
